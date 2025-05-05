@@ -15,16 +15,16 @@ This is a test project for PSPExpress company
    npm install -g @mikro-orm/
    
 2. **Navigate to project directory**:
-  ```sh
+   ```sh
    cd ./project/
 
 3. **Install dependencies**:
-  ```sh
+   ```sh
    npm install
 
 4. **Environment Setup**:
-  Create a .env file in the root directory with the following variables:
-  ```env
+   Create a .env file in the root directory with the following variables:
+   ```env
     PORT=3000
     DB_NAME=your_database_name
     DB_HOST=localhost
@@ -35,11 +35,11 @@ This is a test project for PSPExpress company
     JWT_SECRET=your_jwt_secret_key
 
 5. **Database migration**:
-  ```sh
+   ```sh
     npm run migration:up
 
 6. **Run project**:
-  ```sh
+   ```sh
     npm start
 
 finally you can see project documents in /api rout with swagger
