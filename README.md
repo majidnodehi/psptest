@@ -16,7 +16,7 @@ This is a test project for PSPExpress company
    
 2. **Navigate to project directory**:
   ```sh
-   cd ./project
+   cd ./project/
 
 3. **Install dependencies**:
   ```sh
