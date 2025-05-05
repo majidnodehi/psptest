@@ -1,4 +1,4 @@
-# Project Name
+# PSPTest
 
 This is a test project for PSPExpress company
 
@@ -6,7 +6,7 @@ This is a test project for PSPExpress company
 
 - Node.js (v16 or higher recommended)
 - npm (v8 or higher)
-- Database (PostgreSQL/MySQL/MongoDB - specify which one your project uses)
+- Database (PostgreSQL)
 
 ## Setup
 
@@ -18,11 +18,11 @@ This is a test project for PSPExpress company
   ```sh
    cd ./project
 
-3. **Install dependencies**:
+3. **Install dependencies:**:
   ```sh
    npm install
 
-4. **Environment Setup**
+4. **Environment Setup:**:
   Create a .env file in the root directory with the following variables:
   ```env
   PORT=3000
@@ -38,7 +38,7 @@ This is a test project for PSPExpress company
   ```sh
   npm run migration:up
 
-6. **Run project** :
+6. **Run project:**:
   ```sh
   npm start
 
